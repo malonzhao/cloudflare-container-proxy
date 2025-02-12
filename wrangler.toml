@@ -36,3 +36,6 @@ name = "cloudflare-container-proxy-staging"
 [env.staging.vars]
 MODE = "staging"
 TARGET_UPSTREAM = ""
+
+[observability.logs]
+enabled = true
